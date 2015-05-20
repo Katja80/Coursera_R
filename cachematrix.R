@@ -48,5 +48,3 @@ cacheSolve <- function(x, ...) {
   x$setInverseMatrix(inverseMatrix)
   inverseMatrix
 }
-
-#https://github.com/Katja80/Coursera-ProgrammingAssignment2.git
