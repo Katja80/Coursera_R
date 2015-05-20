@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Coursera - Programming in R - Programming Assignment 2
+
+## The following two functions are used to calculate and cache the inverse of a matrix.
+## This way, the inverse of matrix must only be calculated once if the matrix itself does not change.
 
 ## makeCacheMatrix creates a special "matrix", which is really a list containing a function to
 ## set the value of the matrix (setMatrix)
