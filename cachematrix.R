@@ -11,18 +11,18 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   
-  inverseMatrix <- NULL
+  cachedMatrix <- NULL
   
   setMatrix <- function(y) {
     x <<- y
-    inverseMatrix <<- NULL
+    cachedMatrix <<- NULL
   }
   
   getMatrix <- function() x
   
-  setInverseMatrix <- function(y) inverseMatrix <<- y
+  setInverseMatrix <- function(y) cachedMatrix <<- y
   
-  getInverseMatrix <- function() inverseMatrix
+  getInverseMatrix <- function() cachedMatrix
   
   list(setMatrix = setMatrix, 
        getMatrix = getMatrix,
